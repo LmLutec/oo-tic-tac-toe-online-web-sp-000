@@ -107,7 +107,8 @@ class TicTacToe
     
     def play
        turn 
-        over?
+       if !over?
+        turn 
        if over?
           if won?
          puts "Congratulations #{winner}!"
