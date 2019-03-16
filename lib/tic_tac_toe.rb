@@ -106,7 +106,6 @@ class TicTacToe
     end   
     
     def play
-       turn 
        if !over?
         turn 
        if over?
